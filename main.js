@@ -137,7 +137,7 @@ inputText.addEventListener("input", () => {
     scoreText++;
     score.textContent = scoreText;
     writeWords();
-    if (level~== "easy") {
+    if (level == "easy") {
       number += 5;
       time.innerHTML = `${number} <span>+5</span>`;
     } else if (level == "normal") {
